@@ -1,0 +1,8 @@
+name: hello_app
+description: A sample web application
+version: 1.0.0
+dependencies:
+  browser: any
+  forcemvc: 
+    git: https://github.com/jorishermans/dart-forcemvc
+  intl: any
