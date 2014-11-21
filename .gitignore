@@ -3,6 +3,7 @@ packages
 .project
 .children
 .pub
+build
 *.js
 pubspec.lock
 .idea
