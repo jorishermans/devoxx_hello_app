@@ -10,7 +10,7 @@ part 'controllers/home_controller.dart';
 
 main() {
   initializeDateFormatting("nl_NL", null).then((_) { 
-  WebApplication app = new WebApplication();
+  WebApplication app = new WebApplication(startPage: "start.html");
      
   app.setupConsoleLog(Level.FINEST);
      
